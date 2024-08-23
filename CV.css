@@ -1,0 +1,318 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.part1{
+    background-color:rgb(244,244,244);
+}
+.hr{
+    display: flex;
+}
+.header{
+    width: 50%;
+    padding: 40px 0px;
+}
+.IAM{
+    padding: 5px;
+    margin-left: 60px;
+    font-size: 16px;
+    font-family:  poppins-semibold,poppins,sans-serif;
+    font-weight: bolder;
+}
+.FSD{
+    padding: 2px;
+    margin-left: 60px;
+    font-size: 16px;
+    font-family:  poppins-extralight,poppins,sans-serif;
+    font-weight: normal;
+    display: flex;
+}
+.FSD p{
+    background: #F0FF00;
+}
+.rightpart{
+    display: flex;
+    padding: 40px 0px 40px 150px;
+}
+.HCPC ul{
+    list-style-type: none;
+    display: flex;
+}
+.HCPC ul li{
+    color: #0F0E0E;
+    margin: 12px;
+    /* transform: #6E6E6E 1s; */
+    font-size: 16px;
+    font-family:  poppins-extralight,poppins,sans-serif;
+    font-weight: normal;
+}
+.LL{
+    display: flex;
+    margin-left: 30px;
+}
+.LL img{
+    height: 26px;
+    width: 26px;
+    margin: 8px 10px 0px 15px;
+}
+.LL p{
+    font-weight: normal;
+    font-family:  georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-size: 15px;
+    margin: 10px 0px 0px 10px;
+}
+.FXYI ul{
+    list-style-type: none;
+    display: flex;
+    margin: 8px 0px 0px 20px;
+}
+.FXYI ul li img{
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+}
+.HCPC a{
+    text-decoration: none;
+}
+.FXYI ul a{
+    text-decoration: none;
+}
+/* part 1 ends */
+.YB{
+    border: solid 0px black;
+    height: 160px;
+    width: 800px;
+    background: #F0FF00;
+    margin:130px 0px ;
+    position: relative;
+}
+.cvv{
+    font: normal normal bold 80px poppins-semibold,poppins,sans-serif;
+    position: absolute;
+    bottom: 111px;
+    left: 80px;
+}
+.PC a{
+    font-family: poppins-semibold,poppins,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.PC {
+    font: normal normal normal 50px poppins-extralight,poppins,sans-serif;
+    border: solid 0px black;
+    height: auto;
+    width: 707px;
+    margin: auto;
+}
+.Summary{
+    font: normal normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+    line-height: 30px;
+    margin-top: 50px;
+    text-align: justify;
+}
+.btn{
+    border: solid 1px black;
+    height: 54px;
+    width: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    /* font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif; */
+    transition: all 1s;
+}
+.btn:hover{
+    background-color: #0F0E0E;
+    color: white;
+}
+.btn a:hover{
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color:#0F0E0E;
+    font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.SL{
+    border: solid 0px black;
+    height: 160px;
+    width: 800px;
+    background: #F0FF00;
+    margin:130px 0px 70px;
+    font: normal normal bold 50px poppins-semibold,poppins,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sk ul{
+    display: flex;
+    list-style-type: none;
+}
+.sk ul li{
+    border: solid 0px black;
+    height: auto;
+    width: auto;
+    background: rgb(244,244,244);
+    font: normal normal bold 22px poppins-semibold,poppins,sans-serif;
+    margin: 10px 20px; 
+    padding: 5px 15px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sk ul li img{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+@media screen and (max-width:800px){
+    .sk ul{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style-type: none;
+    }
+    
+}
+.sk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education{
+    border: solid 0px black;
+    height: 160px;
+    width: 800px;
+    background: #F0FF00;
+    margin:130px 0px 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.education p{
+    font: normal normal bold 50px poppins-semibold,poppins,sans-serif;
+    margin-right: 110px;
+}
+.SCE{
+    width: 620px;
+    height: auto;
+    margin:50px auto;
+}
+.enginner{
+    height: auto;
+    margin-bottom: 50px;
+}
+.YOP{
+    font: normal normal normal 12px georgia,palatino,'book antiqua','palatino linotype',serif;
+    text-align: left;
+    margin: 5px 0px;
+}
+.Clgn{
+    font: normal normal normal 22px poppins-semibold,poppins,sans-serif;
+    text-align: left;
+    margin: 5px 0px;
+}
+.School{
+    font: normal normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+    text-align: left;
+    margin: 5px 0px;
+}
+.certificate{
+    border: solid 0px black;
+    height: 160px;
+    width: 800px;
+    background: #F0FF00;
+    margin:130px 0px 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.certificate p{
+    font: normal normal bold 50px poppins-semibold,poppins,sans-serif;
+    margin-right: 110px;
+}
+.sponcer{
+    font: normal normal bold 22px poppins-semibold,poppins,sans-serif;
+    text-align: left;
+    margin: 5px 0px;
+}
+.sponcer img{
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+}
+.CodeMicrobox{
+    margin:20px 450px;
+}
+.inter{
+    border: solid 0px black;
+    height: 160px;
+    width: 800px;
+    background: #F0FF00;
+    margin:130px 0px 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.inter p{
+    font: normal normal bold 50px poppins-semibold,poppins,sans-serif;
+    margin-right: 110px;
+}
+.intresttext {
+    width: 618px;
+    height: auto;
+    text-align: justify;
+    margin: auto;
+    font: normal normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+    line-height: 25px;
+}
+/* part2 end */
+.footer{
+    background: black;
+    margin-top: 90px;
+    height: 320px;
+}
+.ISSN{
+    font-size: 30px;
+    font-family:  poppins-semibold,poppins,sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+label{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 470px;
+    margin-top: 30px;
+}
+.footer input{
+    border: solid 0px black;
+    display: block;
+    margin: 0px auto;
+    height: 36px;
+    width: 575px;
+    outline: none;
+}
+.SN{
+    border: solid 1px black;
+    height: 36px;
+    width: 575px;
+    background-color: #F0FF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin: 10px auto 50px;
+    transition: all 1s;
+}
+.SN:hover{
+    background-color: #0F0E0E;
+    color: white;
+}
+.CR{
+    text-align: center;
+    color: white;
+}
+
