@@ -1,0 +1,368 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* a{
+    text-decoration: none;
+} */
+.part1{
+    background-color:rgb(244,244,244);
+}
+.hr{
+    display: flex;
+}
+.header{
+    width: 50%;
+    padding: 40px 0px;
+}
+.IAM{
+    padding: 5px;
+    margin-left: 8%;
+    font-size: 16px;
+    font-family:  poppins-semibold,poppins,sans-serif;
+    font-weight: bolder;
+}
+.FSD{
+    padding: 2px;
+    margin-left: 8%;
+    font-size: 16px;
+    font-family:  poppins-extralight,poppins,sans-serif;
+    font-weight: normal;
+    display: flex;
+}
+.FSD p{
+    background: #F0FF00;
+}
+.rightpart{
+    display: flex;
+    padding: 40px 0px 40px 10%;
+}
+.HCPC ul{
+    list-style-type: none;
+    display: flex;
+}
+.HCPC ul li{
+    color: #0F0E0E;
+    margin: 10px;
+    /* transform: #6E6E6E 1s; */
+    font-size: 16px;
+    font-family:  poppins-extralight,poppins,sans-serif;
+    font-weight: normal;
+}
+.LL{
+    display: flex;
+    margin-left: 30px;
+}
+.LL img{
+    height: 26px;
+    width: 26px;
+    margin: 8px 10px 0px 15px;
+}
+.LL p{
+    font-weight: normal;
+    font-family:  georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-size: 15px;
+    margin: 10px 0px 0px 10px;
+}
+.FXYI ul{
+    list-style-type: none;
+    display: flex;
+    margin: 8px 0px 0px 20px;
+}
+.FXYI ul li img{
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+}
+.looking{
+    font-size: 58px;
+    font-family: poppins-extralight,poppins,sans-serif;
+    font-weight: 800px;
+}
+.for{
+    font-size: 58px;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(15,14,14)
+}
+.MN{
+    font-size: 58px;
+    font-family: poppins-extralight,poppins,sans-serif;
+    font-weight: 800px;
+}
+.opportunity{
+    font-size: 58px;
+    font-family: poppins-semibold,poppins,sans-serif;
+    font-weight: 1000;
+}
+.opportunity a{
+    font-size: 58px;
+    font-family: poppins-semibold,poppins,sans-serif;
+    font-weight: 1000;
+    background: #F0FF00; 
+}
+.OIWD{
+    width: 60%;
+    text-align: justify;
+    /* line-height: 100px; */
+    word-spacing: 10px;
+    margin-left: 180px;
+    margin-top:90px;
+}
+.profilepic{
+ width: 40%;
+}
+.profilepic img{
+    height: 728px;
+    width: 432px;
+    /* float: right; */
+    margin-right: 100px;
+    padding-left: 40px;
+}
+@media screen and (max-width:600px){
+    .concept{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+.concept{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 153px;
+}
+.HCPC a{
+    text-decoration: none;
+}
+.FXYI ul a{
+    text-decoration: none;
+}
+
+/* part 1 responsive css */
+@media screen and (max-width:500px){
+    .header{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:800px){
+    .SN{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+/* part 1 ends */
+.TIM{
+    height: 160px;
+    width: 800px;
+    background: #F0FF00;
+    margin-top: 150px;
+    position: relative;
+}
+.TIM p{
+    font-size: 50px;
+    font-family:poppins-extralight,poppins,sans-serif;
+    font-weight:normal;
+    margin-left: 70px;
+    position: absolute;
+    bottom: 125px;
+}
+.TIM a{
+    font-size: 50px;
+    font-family: poppins-extralight,poppins,sans-serif;
+    font-weight:600;
+}
+.textabout{
+    margin: 50px 400px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.HCJC{
+    margin: 50px 400px;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: poppins-extralight,poppins,sans-serif;
+}
+.HC{
+    height: 46px;
+    width: auto;
+    background: black;
+    color: white;
+}
+.js{
+    background-color: #E0E0E0;
+    color: #0F0E0E;
+}
+.btn{
+    border: solid 1px black;
+    height: 54px;
+    width: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 400px;
+    font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif;
+    transition: all 1s;
+}
+.btn:hover{
+    background-color: #0F0E0E;
+    color: white;
+}
+.btn a:hover{
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color:#0F0E0E;
+}
+/* part2 end */
+.image2 img{
+    height: 500px;
+    width: 510px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 40px;
+}
+.image2{
+    position: relative;
+}
+.CWY{
+    position: absolute;
+    top: 390px;
+    right: 490px;
+    background-color: #E0E0E0;
+}
+.WICD{
+    height: 828px;
+    width: 811px;
+    position: relative;
+}
+.WICD p{
+    font-size: 50px;
+    font-family: poppins-extralight,poppins,sans-serif;
+    margin: 40px 20px;
+    line-height: 60px;
+}
+.yellowbox{
+    height: 750px;
+    width: 93px;
+    position: absolute;
+    top: 80px;
+    right: -60px;
+    background: #F0FF00;
+}
+.para1{
+    font-size: 16px;
+    line-height: 32px;
+    margin: 40px 50px;
+}
+.btn2{
+    border: solid 1px black;
+    height: 54px;
+    width: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+    font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif;
+    transition: all 1s;
+}
+.btn2:hover{
+    background-color: #0F0E0E;
+    color: white;
+}
+.btn2 a:hover{
+    color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: #0F0E0E;
+    transition: all 1s;
+}
+.part3{
+    border: solid 0px black;
+    width: 100%;
+    height:1350px;
+}
+/* part 3 ends */
+.pname{
+    font-size: 50px;
+    text-align: center;
+    font-family: poppins-extralight,poppins,sans-serif;
+    font-weight: normal;
+}
+.projectsnames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yimg{
+    text-align: center;
+}
+.yimg img{
+    height: 292px;
+    width: 292px;
+    margin: 30px 30px 10px 30px;
+}
+.yimg p{
+    font-size: 22px;
+    font-family:  poppins-extralight,poppins,sans-serif;
+    font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+    .projectsnames{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+/* YSN ends */
+.footer{
+    background: black;
+    margin-top: 90px;
+    height: 320px;
+}
+.ISSN{
+    font-size: 30px;
+    font-family:  poppins-semibold,poppins,sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+label{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 470px;
+    margin-top: 30px;
+}
+.footer input{
+    border: solid 0px black;
+    display: block;
+    margin: 0px auto;
+    height: 36px;
+    width: 575px;
+    outline: none;
+}
+.SN{
+    border: solid 1px black;
+    height: 36px;
+    width: 575px;
+    background-color: #F0FF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin: 10px auto 50px ;   /*470px*/
+    transition: all 1s;
+}
+.SN:hover{
+    background-color: #0F0E0E;
+    color: white;
+}
+.CR{
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
