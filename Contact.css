@@ -1,0 +1,221 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.part1{
+    background-color:rgb(244,244,244);
+}
+.hr{
+    display: flex;
+}
+.header{
+    width: 50%;
+    padding: 40px 0px;
+}
+.IAM{
+    padding: 5px;
+    margin-left: 60px;
+    font-size: 16px;
+    font-family:  poppins-semibold,poppins,sans-serif;
+    font-weight: bolder;
+}
+.FSD{
+    padding: 2px;
+    margin-left: 60px;
+    font-size: 16px;
+    font-family:  poppins-extralight,poppins,sans-serif;
+    font-weight: normal;
+    display: flex;
+}
+.FSD p{
+    background: #F0FF00;
+}
+.rightpart{
+    display: flex;
+    padding: 40px 0px 40px 150px;
+}
+.HCPC ul{
+    list-style-type: none;
+    display: flex;
+}
+.HCPC ul li{
+    color: #0F0E0E;
+    margin: 12px;
+    /* transform: #6E6E6E 1s; */
+    font-size: 16px;
+    font-family:  poppins-extralight,poppins,sans-serif;
+    font-weight: normal;
+}
+.LL{
+    display: flex;
+    margin-left: 30px;
+}
+.LL img{
+    height: 26px;
+    width: 26px;
+    margin: 8px 10px 0px 15px;
+}
+.LL p{
+    font-weight: normal;
+    font-family:  georgia,palatino,'book antiqua','palatino linotype',serif;
+    font-size: 15px;
+    margin: 10px 0px 0px 10px;
+}
+.FXYI ul{
+    list-style-type: none;
+    display: flex;
+    margin: 8px 0px 0px 20px;
+}
+.FXYI ul li img{
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+}
+.HCPC a{
+    text-decoration: none;
+}
+.FXYI ul a{
+    text-decoration: none;
+}
+/* part 1 ends */
+
+.CT{
+    border: solid 0px black;
+    height: 160px;
+    width: 800px;
+    background: #F0FF00;
+    margin:130px 0px ;
+    position: relative;
+}
+.contacttext{
+    font: normal normal bold 80px poppins-semibold,poppins,sans-serif;
+    position: absolute;
+    bottom: 111px;
+    left: 80px;
+}
+.detailbox{
+    width: 707px;
+    height: auto;
+    margin-left: 140px;
+}
+.GIT{
+    display: flex;
+
+}
+.get{
+    font: normal normal normal 50px poppins-extralight,poppins,sans-serif;
+}
+.IT{
+    font:  normal normal normal 50px poppins-extralight,poppins,sans-serif;
+}
+.contpara{
+    font: normal normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+    line-height: 25px;
+    margin: 10px 10px 10px 30px;
+    padding: 10px;
+    text-align: justify;
+}
+.phnNo{
+    margin: 40px 0px;
+    font: normal normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.LD{
+    margin: 10px 10px 10px 30px;
+}
+.LD p{
+    font: normal normal normal 15px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin: 5px;
+}
+.LD input{
+    margin: 5px;
+    width: 510px;
+    height: 44px;
+    background: rgb(224,224,224);
+    border: solid 0px black;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.LD input:focus{
+    outline: none;
+}
+.commite input{
+    height: 126px;
+    width: 510px;
+    background: rgb(224,224,224);
+    border: solid 0px black;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.commite input:focus{
+    outline: none;
+}
+.submit{
+    margin: 10px 10px 10px 30px;
+}
+.submit button{
+    border: solid 0px black;
+    font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif;
+    height: 52px;
+    width: 510px;
+    text-align: center;
+    background: #F0FF00;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+.submit button:hover{
+    background: #0F0E0E;
+    color: white;
+}
+.part2{
+    margin-bottom: 100px;
+}
+/* part2 ends */
+
+.footer{
+    background: black;
+    margin-top: 90px;
+    height: 320px;
+}
+.ISSN{
+    font-size: 30px;
+    font-family:  poppins-semibold,poppins,sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+label{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 470px;
+    margin-top: 30px;
+}
+.footer input{
+    border: solid 0px black;
+    display: block;
+    margin: 0px auto;
+    height: 36px;
+    width: 575px;
+    outline: none;
+}
+.SN{
+    border: solid 1px black;
+    height: 36px;
+    width: 575px;
+    background-color: #F0FF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font:italic normal normal 14px georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin: 10px auto 40px;
+    transition: all 1s;
+}
+.SN:hover{
+    background-color: #0F0E0E;
+    color: white;
+}
+.CR{
+    text-align: center;
+    color: white;
+}
